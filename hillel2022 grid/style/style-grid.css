@@ -1,0 +1,92 @@
+div{
+    outline: 2px solid black;
+}
+.box{
+     margin: 10px auto;
+     width: 1200px;
+     background: rgb(238, 57, 57);
+     text-align: center;
+     font-size: 40px;             
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 800px auto;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+.box2{
+    margin: 10px auto;
+    width: 1200px;
+    background: rgb(57, 238, 78);
+    text-align: center;
+    font-size: 40px; 
+    display: grid;
+    grid-template-areas:
+    "A B C"
+    "D D E"
+    "D D E"
+    "D D F"
+    "G G F"
+    "G G H"
+    "G G H"
+    "I J J"
+    "I K L"
+    "M M N"
+    "P R N"
+    "Q R N"; 
+}
+.grid-a{
+    grid-area: A;
+}
+.grid-b{
+    grid-area: B;
+}
+.grid-c{
+    grid-area: C;
+}
+.grid-d{
+    grid-area: D;
+}
+.grid-g{
+    grid-area: G;
+}
+.grid-e{
+    grid-area: E;
+}.grid-f{
+    grid-area: F;
+}.grid-h{
+    grid-area: H;
+}
+.grid-i{
+    grid-area: I;
+}
+.grid-j{
+    grid-area: J;
+}
+.grid-k{
+    grid-area: K;
+}
+.grid-l{
+    grid-area: L;
+}
+.grid-m{
+    grid-area: M;
+}
+.grid-n{
+    grid-area: N;
+}
+.grid-p{
+    grid-area: P;
+}
+.grid-r{
+    grid-area: R;
+}
+.grid-q{
+    grid-area: Q;
+}
